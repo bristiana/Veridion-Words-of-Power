@@ -1,11 +1,4 @@
-# Veridion-Words-of-Power
-# Veridion-Words-of-Power
-
-Here's a professional README for your GitHub repository:
-
----
-
-# **Hackathon Challenge: Words of Power**
+# Veridion Words of Power Challenge
 
 ## **Overview**
 **Words of Power** is a strategic, text-based game where each word acts as a weapon. The player must choose wisely, balancing cost and power to outsmart the system and defeat the opposing words. The game spans 10 rounds, and the goal is to spend the least amount of money while winning as many rounds as possible.
