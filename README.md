@@ -62,6 +62,7 @@ Below is the full list of available player words along with their associated cos
 | Rock | 38 |
 | H-bomb | 75 |
 | ... | ... |
+(find it in resources -> players_words.json)
 
 ### **⚠️ Penalties**
 If the player’s word **does not beat** the system word, a **flat $75 penalty** is added to the word's cost.
