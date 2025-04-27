@@ -1,3 +1,4 @@
+### **Veridion Words of Power Challenge **
 ### **Can You Outsmart the System?**
 
 Unleash the power of words in a high-stakes battle of strategy and wit!
@@ -284,7 +285,7 @@ Use this as your reference when making strategic choices.
 | 76 | Orbital Laser | 98 |
 | 77 | Time | 100 |
 
-### ** ⚠️Penalties**
+### **⚠️Penalties**
 
 If the player's word **does not beat** the system word, they receive a **flat** **penalty fee** of `75$` in addition to the cost of their chosen word.
 
