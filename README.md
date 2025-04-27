@@ -1,4 +1,4 @@
-### **Veridion Words of Power Challenge **
+### **Veridion Words of Power Challenge**
 ### **Can You Outsmart the System?**
 
 Unleash the power of words in a high-stakes battle of strategy and wit!
