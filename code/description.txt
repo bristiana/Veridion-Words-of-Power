@@ -1,0 +1,26 @@
+
+
+Code Description
+
+This code implements a word classification system that categorizes words or phrases into predefined categories based on the cosine similarity between word vectors and the average vectors of the categories. The process utilizes GloVe embeddings (Global Vectors for Word Representation), which represent words in a high-dimensional vector space and are used to compute semantic relationships between words.
+
+Functionality Breakdown:
+
+1. Loading GloVe embeddings:
+   The function 'load_glove_embeddings()'loads GloVe embeddings from a text file, storing each word and its corresponding vector in a dictionary. This allows easy access to word vectors for subsequent operations.
+
+2. Cosine similarity calculation:
+   The 'cosine_similarity()' function measures the similarity between two vectors (a word/phrase and a category) by calculating the cosine of the angle between them. This metric quantifies the semantic relationship between concepts, with a higher cosine similarity value indicating a stronger relationship.
+
+3. Calculating an average vector for a phrase:
+   The function 'average_vector()' computes the average vector of a phrase by averaging the vectors of the individual words in the phrase. This is useful for classifying entire phrases, not just single words.
+
+4. Classifying words into categories:
+   The function 'classify_tool()' determines which category a word or phrase belongs to. It calculates the average vector for the word or phrase and compares it to the average vectors of predefined categories (e.g., "Sandpaper", "Steam", "Acid","Water","Fire") using cosine similarity. The function returns the category with the highest similarity score.
+
+Key Features:
+- Loads GloVe embeddings from a text file for efficient word vector retrieval.
+- Computes average vectors for predefined categories based on the semantic content of their constituent words.
+- Classifies new words or phrases by comparing their vectors to the vectors of predefined categories using cosine similarity.
+- Provides a fast and effective way to categorize words or phrases according to their semantic meaning.
+
